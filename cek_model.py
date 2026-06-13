@@ -6,7 +6,7 @@ with open("buzzer_model.pkl", "rb") as f:
 model    = saved['model']
 features = saved['features']
 
-print("✅ Model berhasil dibuka!")
+print("Model berhasil dibuka!")
 print(f"Jumlah pohon keputusan: {model.n_estimators}")
 print(f"\nFitur yang dipakai ({len(features)}):")
 for i, f in enumerate(features, 1):
